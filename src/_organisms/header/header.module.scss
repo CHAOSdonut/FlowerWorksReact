@@ -1,0 +1,49 @@
+﻿.header {
+    display: flex;
+    justify-content: right;
+
+    .menu {
+        position: fixed;
+        top: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(0,148,255, 0.2);
+        width: 230px;
+        padding: 10px;
+        color: black;
+        height: fit-content;
+        border-radius: 5px;
+
+        img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .link {
+            padding: 4px 0 4px 0;
+            color: dodgerblue;
+            font-weight: bold;
+        }
+
+        .clickAble {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .uploadbutton {
+            background-color: #7FC70C;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+            border-radius: 5px;
+            padding: 4px 0 4px 0;
+            transition: transform .5s;
+
+            &:hover {
+                transform: scale(0.98);
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+﻿.buttonBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 25px;
+    width: 51px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
+    user-select: none;
+
+    .likes {
+        display: flex;
+        background-image: url(/img/heart.png);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 9px;
+        transition: transform .5s;
+
+        &:hover {
+            transform: scale(0.95);
+        }
+    }
+
+    .comments {
+        display: flex;
+        background-image: url(/img/chat.png);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        transition: transform .5s;
+
+        &:hover {
+            transform: scale(0.95);
+        }
+    }
+}

@@ -1,0 +1,16 @@
+﻿.masonryWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .masonryColumn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

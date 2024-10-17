@@ -1,0 +1,47 @@
+﻿.textWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #23648B;
+    padding: 10px 0 10px 0;
+
+    .name {
+        font-size: 1.1vw;
+        font-weight: bold;
+    }
+
+    .line {
+        width: 100%;
+        padding: 0 10px 0 10px;
+
+        hr {
+            border-top: 2px solid rgb(0,100,255);
+            color: white;
+        }
+    }
+
+    .arrow {
+        height: 0.6vw;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #23648B;
+
+        .seeAll {
+            font-size: 0.8vw;
+            margin-left: auto;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
